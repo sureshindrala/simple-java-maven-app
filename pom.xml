@@ -23,9 +23,14 @@
     <distributionManagement>
     <repository>
         <id>nexus</id>
+        <name>first-release</name>
+        <url>http://34.16.157.62:8081/repository/first-release/</url>
+    </repository>
+      <second-repository>
+        <id>nexus</id>
         <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-    </repository>
+    </second-repository>
     </distributionManagement>
   <build>
     <pluginManagement>
