@@ -21,11 +21,6 @@
     </dependency>
   </dependencies>    
     <distributionManagement>
-     <firstreleaserepository>
-        <id>nexus</id>
-        <name>firstrelease</name>
-        <url>http://34.16.157.62:8081/repository/firstrelease/</url>
-    </firstreleaserepository>
     <first-snapshotrepository>
         <id>nexus</id>
         <name>first-snapshot</name>
