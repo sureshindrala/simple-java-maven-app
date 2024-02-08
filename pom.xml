@@ -30,7 +30,7 @@
         <id>nexus</id>
         <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-    </secondRepository>
+      </secondRepository>
     </distributionManagement>
   <build>
     <pluginManagement>
