@@ -14,6 +14,17 @@
       <version>5.10.2</version>
       <scope>test</scope>
     </dependency>
+    <distributionManagement>
+<firstreleaserepo>
+  <id>nexus</id>
+  <name>firstrelease</name>
+  <url>http://34.16.157.62:8081/repository/firstrelease/</url>
+</firstreleaserepo>
+      <first-snapshotrepo>
+      <id>nexus</id>
+        <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
+      </first-snapshotrepo>
+    </distributionManagement>
   </dependencies>
   <properties>
     <sonar.host.url>http://34.125.27.233:9000/</sonar.host.url>
