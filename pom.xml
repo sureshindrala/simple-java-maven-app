@@ -15,23 +15,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-    <distributionManagement>
-<firstreleaserepository>
-  <id>nexus</id>
-  <name>firstrelease</name>
-  <url>http://34.16.157.62:8081/repository/firstrelease/</url>
-</firstreleaserepository>
-      <first-snapshotrepository>
-      <id>nexus</id>
-          <name>first-snapshot</name>
-        <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-      </first-snapshotrepository>
-    </distributionManagement>
-  <properties>
+        <properties>
     <sonar.host.url>http://34.125.27.233:9000/</sonar.host.url>
     <sonar.login>sqa_5588e7e647af25dd14242a6648e41499046941d5</sonar.login>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+    <distributionManagement>
+     <firstreleaserepository>
+        <id>nexus</id>
+        <name>firstrelease</name>
+        <url>http://34.16.157.62:8081/repository/firstrelease/</url>
+    </firstreleaserepository>
+    <first-snapshotrepository>
+        <id>nexus</id>
+        <name>first-snapshot</name>
+        <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
+    </first-snapshotrepository>
+    </distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
