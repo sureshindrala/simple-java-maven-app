@@ -19,18 +19,18 @@
       <version>5.10.2</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>    
+  </dependencies>
     <distributionManagement>
     <repository>
         <id>nexus</id>
         <name>first-release</name>
         <url>http://34.16.157.62:8081/repository/first-release/</url>
     </repository>
-      <second-repository>
+      <secondrepository>
         <id>nexus</id>
         <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-    </second-repository>
+    </secondrepository>
     </distributionManagement>
   <build>
     <pluginManagement>
