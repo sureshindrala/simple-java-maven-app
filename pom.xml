@@ -25,7 +25,6 @@
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
       </first-snapshotrepo>
     </distributionManagement>
-  </dependencies>
   <properties>
     <sonar.host.url>http://34.125.27.233:9000/</sonar.host.url>
     <sonar.login>sqa_5588e7e647af25dd14242a6648e41499046941d5</sonar.login>
