@@ -16,15 +16,16 @@
     </dependency>
   </dependencies>
     <distributionManagement>
-<firstreleaserepo>
+<firstreleaserepository>
   <id>nexus</id>
   <name>firstrelease</name>
   <url>http://34.16.157.62:8081/repository/firstrelease/</url>
-</firstreleaserepo>
-      <first-snapshotrepo>
+</firstreleaserepository>
+      <first-snapshotrepository>
       <id>nexus</id>
+          <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-      </first-snapshotrepo>
+      </first-snapshotrepository>
     </distributionManagement>
   <properties>
     <sonar.host.url>http://34.125.27.233:9000/</sonar.host.url>
