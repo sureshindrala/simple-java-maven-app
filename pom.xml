@@ -21,11 +21,11 @@
     </dependency>
   </dependencies>    
     <distributionManagement>
-    <first-snapshotrepository>
+    <repository>
         <id>nexus</id>
         <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-    </first-snapshotrepository>
+    </repository>
     </distributionManagement>
   <build>
     <pluginManagement>
