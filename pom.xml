@@ -26,11 +26,11 @@
         <name>first-release</name>
         <url>http://34.16.157.62:8081/repository/first-release/</url>
     </repository>
-      <secondrepository>
+      <secondRepository>
         <id>nexus</id>
         <name>first-snapshot</name>
         <url>http://34.16.157.62:8081/repository/first-snapshot/</url>
-    </secondrepository>
+    </secondRepository>
     </distributionManagement>
   <build>
     <pluginManagement>
